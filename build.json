@@ -9,6 +9,16 @@
                 ""
             ]
         },
+        "simulator": {
+            "codeSignIdentity": "iPhone Developer",
+            "developmentTeam": "auto",
+            "packageType": "development",
+            "buildFlag": [
+                "-sdk",
+                "iphonesimulator"
+            ],
+            "automaticProvisioning": true
+        },
         "release": {
             "codeSignIdentity": "iPhone Developer",
             "developmentTeam": "auto",

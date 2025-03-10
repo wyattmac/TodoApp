@@ -9,11 +9,14 @@
     "ios": {
       "appId": "io.ionic.todoapp",
       "buildFlag": [
-        ""
+        "-sdk",
+        "iphonesimulator"
       ],
       "automaticProvisioning": true,
       "env": {},
-      "options": {}
+      "options": {
+        "buildType": "simulator"
+      }
     }
   },
   "options": {}
