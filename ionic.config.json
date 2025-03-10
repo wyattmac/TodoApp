@@ -13,11 +13,15 @@
         "iphonesimulator"
       ],
       "automaticProvisioning": true,
-      "env": {},
+      "env": {
+        "SIMULATOR_BUILD": "true"
+      },
       "options": {
         "buildType": "simulator"
       }
     }
   },
-  "options": {}
+  "options": {
+    "simulator": true
+  }
 }
