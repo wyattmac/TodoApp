@@ -1,0 +1,19 @@
+{
+    "name": "native-todo-app",
+    "version": "1.0.0",
+    "description": "Native iOS Todo App built with SwiftUI",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "echo \"Native iOS project - no build step required\"",
+        "appflow:build": "echo \"Native iOS project - using Appflow native build\""
+    },
+    "keywords": [
+        "ios",
+        "swift",
+        "swiftui",
+        "todo"
+    ],
+    "author": "wyattmac",
+    "license": "MIT"
+}
