@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "appId": "your_actual_app_id",
+            "appId": "f089e0e9",
             "iosPath": ".",
             "xcodeProject": "NativeTodoApp.xcodeproj",
             "xcodeBuildConfiguration": "Debug",
