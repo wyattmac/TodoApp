@@ -1,0 +1,18 @@
+{
+    "apps": [
+        {
+            "appId": "your_actual_app_id",
+            "iosPath": ".",
+            "xcodeProject": "NativeTodoApp.xcodeproj",
+            "xcodeBuildConfiguration": "Debug",
+            "simulatorBuild": true,
+            "options": {
+                "includeSourcemaps": true
+            },
+            "hooks": {
+                "prebuild": [],
+                "postbuild": []
+            }
+        }
+    ]
+}
