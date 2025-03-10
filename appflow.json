@@ -1,7 +1,7 @@
 {
     "id": "todoapp",
     "name": "TodoApp",
-    "iosPath": "App/App.xcodeproj",
+    "iosPath": "ios/App/App.xcodeproj",
     "builds": {
         "ios": {
             "appId": "io.ionic.todoapp",
@@ -9,8 +9,10 @@
                 "-sdk",
                 "iphonesimulator"
             ],
+            "certificateType": "development",
             "automaticProvisioning": true,
             "developmentTeam": "auto",
+            "emulator": true,
             "env": {
                 "SIMULATOR_BUILD": "true"
             },

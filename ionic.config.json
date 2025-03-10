@@ -3,25 +3,5 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react-vite",
-  "iosPath": "ios/App/App.xcodeproj",
-  "builds": {
-    "ios": {
-      "appId": "io.ionic.todoapp",
-      "buildFlag": [
-        "-sdk",
-        "iphonesimulator"
-      ],
-      "automaticProvisioning": true,
-      "env": {
-        "SIMULATOR_BUILD": "true"
-      },
-      "options": {
-        "buildType": "simulator"
-      }
-    }
-  },
-  "options": {
-    "simulator": true
-  }
+  "type": "react-vite"
 }

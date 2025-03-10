@@ -1,4 +1,6 @@
 {
+    "id": "todoapp",
+    "name": "TodoApp",
     "iosPath": "ios/App/App.xcodeproj",
     "builds": {
         "ios": {
@@ -8,15 +10,19 @@
                 "iphonesimulator"
             ],
             "automaticProvisioning": true,
+            "developmentTeam": "auto",
             "env": {
                 "SIMULATOR_BUILD": "true"
             },
             "options": {
-                "buildType": "simulator"
+                "buildType": "simulator",
+                "emulator": true
             }
         }
     },
     "options": {
-        "simulator": true
-    }
+        "simulator": true,
+        "includeSourcemaps": true
+    },
+    "hooks": {}
 }
