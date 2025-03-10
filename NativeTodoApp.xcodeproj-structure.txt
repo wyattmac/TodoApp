@@ -1,0 +1,28 @@
+NativeTodoApp.xcodeproj/
+├── project.pbxproj
+├── project.xcworkspace/
+│   ├── contents.xcworkspacedata
+│   ├── xcshareddata/
+│   │   └── IDEWorkspaceChecks.plist
+│   └── xcuserdata/
+└── xcshareddata/
+    └── xcschemes/
+        └── NativeTodoApp.xcscheme
+
+NativeTodoApp/
+├── Assets.xcassets/
+│   ├── AccentColor.colorset/
+│   │   └── Contents.json
+│   ├── AppIcon.appiconset/
+│   │   └── Contents.json
+│   └── Contents.json
+├── Preview Content/
+│   └── Preview Assets.xcassets/
+│       └── Contents.json
+├── Info.plist
+├── NativeTodoApp.swift
+├── Models/
+│   ├── Task.swift
+│   └── TaskStore.swift
+└── Views/
+    └── ContentView.swift 
