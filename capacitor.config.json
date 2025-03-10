@@ -1,0 +1,12 @@
+{
+    "appId": "io.ionic.todoapp",
+    "appName": "TodoApp",
+    "webDir": "dist",
+    "bundledWebRuntime": false,
+    "server": {
+        "androidScheme": "https"
+    },
+    "ios": {
+        "path": "ios/App/App.xcodeproj"
+    }
+}

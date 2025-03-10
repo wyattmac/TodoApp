@@ -1,0 +1,10 @@
+{
+    "iosPath": "App/App.xcodeproj",
+    "builds": {
+        "ios": {
+            "appId": "io.ionic.todoapp",
+            "buildFlag": [],
+            "automaticProvisioning": true
+        }
+    }
+}

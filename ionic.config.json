@@ -3,5 +3,13 @@
   "integrations": {
     "capacitor": {}
   },
-  "type": "react-vite"
+  "type": "react-vite",
+  "iosPath": "ios/App/App.xcodeproj",
+  "builds": {
+    "ios": {
+      "appId": "io.ionic.todoapp",
+      "buildFlag": [],
+      "automaticProvisioning": true
+    }
+  }
 }
