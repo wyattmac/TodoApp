@@ -5,14 +5,18 @@
             "developmentTeam": "auto",
             "packageType": "development",
             "automaticProvisioning": true,
-            "buildFlag": []
+            "buildFlag": [
+                ""
+            ]
         },
         "release": {
             "codeSignIdentity": "iPhone Developer",
             "developmentTeam": "auto",
             "packageType": "app-store",
             "automaticProvisioning": true,
-            "buildFlag": []
+            "buildFlag": [
+                ""
+            ]
         }
     }
 }

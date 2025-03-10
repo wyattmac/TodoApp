@@ -8,8 +8,13 @@
   "builds": {
     "ios": {
       "appId": "io.ionic.todoapp",
-      "buildFlag": [],
-      "automaticProvisioning": true
+      "buildFlag": [
+        ""
+      ],
+      "automaticProvisioning": true,
+      "env": {},
+      "options": {}
     }
-  }
+  },
+  "options": {}
 }
