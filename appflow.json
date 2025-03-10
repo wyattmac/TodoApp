@@ -26,5 +26,8 @@
         "simulator": true,
         "includeSourcemaps": true
     },
-    "hooks": {}
+    "hooks": {
+        "prebuild": [],
+        "postbuild": []
+    }
 }
