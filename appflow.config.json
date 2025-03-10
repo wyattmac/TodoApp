@@ -1,0 +1,9 @@
+{
+    "iosPath": "ios/App",
+    "builds": {
+        "ios": {
+            "appId": "io.ionic.todoapp",
+            "buildFlag": []
+        }
+    }
+}
